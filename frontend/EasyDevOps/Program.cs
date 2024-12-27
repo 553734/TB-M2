@@ -1,0 +1,21 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("                                                                 ");
+Console.WriteLine(" IIIIIIIIIITTTTTTTTTTTTTTTTTTTTTTTMMMMMMMM               MMMMMMMM");
+Console.WriteLine(" I::::::::IT:::::::::::::::::::::TM:::::::M             M:::::::M");
+Console.WriteLine(" I::::::::IT:::::::::::::::::::::TM::::::::M           M::::::::M");
+Console.WriteLine(" II::::::IIT:::::TT:::::::TT:::::TM:::::::::M         M:::::::::M");
+Console.WriteLine("   I::::I  TTTTTT  T:::::T  TTTTTTM::::::::::M       M::::::::::M");
+Console.WriteLine("   I::::I          T:::::T        M:::::::::::M     M:::::::::::M");
+Console.WriteLine("   I::::I          T:::::T        M:::::::M::::M   M::::M:::::::M");
+Console.WriteLine("   I::::I          T:::::T        M::::::M M::::M M::::M M::::::M");
+Console.WriteLine("   I::::I          T:::::T        M::::::M  M::::M::::M  M::::::M");
+Console.WriteLine("   I::::I          T:::::T        M::::::M   M:::::::M   M::::::M");
+Console.WriteLine("   I::::I          T:::::T        M::::::M    M:::::M    M::::::M");
+Console.WriteLine("   I::::I          T:::::T        M::::::M     MMMMM     M::::::M");
+Console.WriteLine(" II::::::II      TT:::::::TT      M::::::M               M::::::M");
+Console.WriteLine(" I::::::::I      T:::::::::T      M::::::M               M::::::M");
+Console.WriteLine(" I::::::::I      T:::::::::T      M::::::M               M::::::M");
+Console.WriteLine(" IIIIIIIIII      TTTTTTTTTTT      MMMMMMMM               MMMMMMMM");
+Console.WriteLine("                                                                 ");
+Console.WriteLine("EasyDevOps");
+Console.WriteLine("                                                                 ");
