@@ -4,20 +4,20 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
+                // Checkout the code from the repository
                 checkout scm
             }
         }
+
         stage('Build Frontend') {
             steps {
                 script {
-                    // Full path to dotnet on Windows (default path)
+                    // Define the path to dotnet executable
                     def dotnetPath = 'C:\\Program Files\\dotnet\\dotnet.exe'
 
-                    // Check the .NET version and path
-                    sh "${dotnetPath} --version"
-                    
-                    // Build the .NET project
+                    // Navigate to the frontend directory and build the .NET app
                     dir('frontend/EasyDevOps') {
+                        // Build the .NET app
                         sh "${dotnetPath} build"
                     }
                 }
