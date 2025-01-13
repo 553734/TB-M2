@@ -15,10 +15,10 @@ pipeline {
                     // Define the path to dotnet executable
                     def dotnetPath = 'C:\\Program Files\\dotnet\\dotnet.exe'
 
-                    // Navigate to the frontend directory and build the .NET app
+                    // Navigate to the frontend directory and build the .NET app using Windows batch command
                     dir('frontend/EasyDevOps') {
-                        // Build the .NET app
-                        sh "${dotnetPath} build"
+                        // Build the .NET app using bat for Windows
+                        bat "\"${dotnetPath}\" build"
                     }
                 }
             }
